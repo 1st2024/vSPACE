@@ -1,0 +1,95 @@
+2026-04-14 07:33:00 - INFO - ================================================================================
+2026-04-14 07:33:00 - INFO - vSPACE Verina-Style Lean4 Proof Task Generator v1.0
+2026-04-14 07:33:00 - INFO - ================================================================================
+2026-04-14 07:33:00 - INFO - Started: 2026-04-14T07:33:00.633518+00:00
+2026-04-14 07:33:00 - INFO - Output CSV: C:\_C6AI\vSPACE\_references\secure-e-voting\v_train_extended.csv
+2026-04-14 07:33:00 - INFO - Output Log: C:\_C6AI\vSPACE\_references\secure-e-voting\v_train_extended.log
+2026-04-14 07:33:00 - INFO - Loading original tasks from C:\_C6AI\vSPACE\_references\secure-e-voting\v_train.csv
+2026-04-14 07:33:00 - DEBUG - CSV header: ['id', 'description', 'lean_code', 'signature', 'metadata', 'tests', 'reject_inputs', 'difficulty']
+2026-04-14 07:33:00 - DEBUG -   Loaded task 1: verina_advanced_68 (advanced)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 2: verina_basic_70 (basic)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 3: verina_advanced_42 (advanced)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 4: verina_basic_100 (basic)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 5: verina_basic_95 (basic)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 51: verina_basic_69 (basic)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 101: verina_basic_53 (basic)
+2026-04-14 07:33:00 - DEBUG -   Loaded task 151: verina_advanced_29 (advanced)
+2026-04-14 07:33:00 - INFO - ✓ Loaded 189 original tasks
+2026-04-14 07:33:00 - INFO - 
+================================================================================
+2026-04-14 07:33:00 - INFO - GENERATING PROOF TASKS
+2026-04-14 07:33:00 - INFO - ================================================================================
+2026-04-14 07:33:00 - INFO - 
+[1/4] Generating coq_based tasks (250 tasks)...
+2026-04-14 07:33:00 - INFO -   Generated 50/250 coq_based tasks
+2026-04-14 07:33:00 - INFO -   Generated 100/250 coq_based tasks
+2026-04-14 07:33:00 - INFO -   Generated 150/250 coq_based tasks
+2026-04-14 07:33:00 - INFO -   Generated 200/250 coq_based tasks
+2026-04-14 07:33:00 - INFO -   Generated 250/250 coq_based tasks
+2026-04-14 07:33:00 - INFO - ✓ Generated 250 coq_based tasks
+2026-04-14 07:33:00 - INFO - 
+[2/4] Generating basic_core tasks (250 tasks)...
+2026-04-14 07:33:00 - INFO -   Generated 50/250 basic_core tasks
+2026-04-14 07:33:00 - INFO -   Generated 100/250 basic_core tasks
+2026-04-14 07:33:00 - INFO -   Generated 150/250 basic_core tasks
+2026-04-14 07:33:00 - INFO -   Generated 200/250 basic_core tasks
+2026-04-14 07:33:00 - INFO -   Generated 250/250 basic_core tasks
+2026-04-14 07:33:00 - INFO - ✓ Generated 250 basic_core tasks
+2026-04-14 07:33:00 - INFO - 
+[3/4] Generating autonomous tasks (300 tasks)...
+2026-04-14 07:33:00 - INFO -   Generated 50/300 autonomous tasks
+2026-04-14 07:33:00 - INFO -   Generated 100/300 autonomous tasks
+2026-04-14 07:33:00 - INFO -   Generated 150/300 autonomous tasks
+2026-04-14 07:33:00 - INFO -   Generated 200/300 autonomous tasks
+2026-04-14 07:33:00 - INFO -   Generated 250/300 autonomous tasks
+2026-04-14 07:33:00 - INFO -   Generated 300/300 autonomous tasks
+2026-04-14 07:33:00 - INFO - ✓ Generated 300 autonomous tasks
+2026-04-14 07:33:00 - INFO - 
+[4/4] Generating augmented tasks (250 tasks)...
+2026-04-14 07:33:00 - INFO -   Generated 50/250 augmented tasks
+2026-04-14 07:33:00 - INFO -   Generated 100/250 augmented tasks
+2026-04-14 07:33:00 - INFO -   Generated 150/250 augmented tasks
+2026-04-14 07:33:00 - INFO -   Generated 200/250 augmented tasks
+2026-04-14 07:33:00 - INFO -   Generated 250/250 augmented tasks
+2026-04-14 07:33:00 - INFO - ✓ Generated 250 augmented tasks
+2026-04-14 07:33:00 - INFO - 
+Writing 1239 tasks to C:\_C6AI\vSPACE\_references\secure-e-voting\v_train_extended.csv...
+2026-04-14 07:33:00 - DEBUG -   Written 100/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 200/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 300/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 400/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 500/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 600/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 700/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 800/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 900/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 1000/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 1100/1239 tasks
+2026-04-14 07:33:00 - DEBUG -   Written 1200/1239 tasks
+2026-04-14 07:33:00 - INFO - ✓ Written 1239 tasks
+2026-04-14 07:33:00 - INFO -   File size: 2.79 MB
+2026-04-14 07:33:00 - INFO -   Line count: 68,647 lines (multiline Lean4 code)
+2026-04-14 07:33:00 - INFO - 
+================================================================================
+2026-04-14 07:33:00 - INFO - GENERATION SUMMARY
+2026-04-14 07:33:00 - INFO - ================================================================================
+2026-04-14 07:33:00 - INFO - 
+Original Verina tasks: 189
+2026-04-14 07:33:00 - INFO - New vSPACE tasks: 1050
+2026-04-14 07:33:00 - INFO - Total tasks: 1239
+2026-04-14 07:33:00 - INFO - 
+Difficulty distribution:
+2026-04-14 07:33:00 - INFO -   augmented           :  250 tasks
+2026-04-14 07:33:00 - INFO -   autonomous          :  300 tasks
+2026-04-14 07:33:00 - INFO -   basic_core          :  250 tasks
+2026-04-14 07:33:00 - INFO -   coq_based           :  250 tasks
+2026-04-14 07:33:00 - INFO - 
+Feature coverage:
+2026-04-14 07:33:00 - INFO -   basic_core          :  250 tasks covering F-001, F-002, F-003, F-004, F-005, F-006, F-007, F-008, F-009, F-010, F-011, F-012
+2026-04-14 07:33:00 - INFO -   autonomous          :  300 tasks covering F-100, F-101, F-102, F-103, F-109, F-110
+2026-04-14 07:33:00 - INFO -   augmented           :  250 tasks covering F-104, F-105, F-106, F-107, F-108
+2026-04-14 07:33:00 - INFO - 
+✓ Generation complete!
+2026-04-14 07:33:00 - INFO -   Log file: C:\_C6AI\vSPACE\_references\secure-e-voting\v_train_extended.log
+2026-04-14 07:33:00 - INFO -   CSV file: C:\_C6AI\vSPACE\_references\secure-e-voting\v_train_extended.csv
+2026-04-14 07:33:00 - INFO - Finished: 2026-04-14T07:33:00.890287+00:00
